@@ -115,7 +115,25 @@ h2{font-size:clamp(28px,3.6vw,46px);line-height:1.05;letter-spacing:-.045em;colo
 .callout b{color:#765319}
 .quote-card{padding:25px 26px;border-radius:22px;background:linear-gradient(135deg,#0c3477,#236bd0);color:white;position:relative;overflow:hidden}
 .quote-card:after{content:"“";position:absolute;right:15px;top:-38px;font-family:Georgia,serif;font-size:180px;color:#ffffff13}
-.quote-card p{position:relative;font-family:Georgia,serif;font-size:clamp(18px,2.1vw,27px);line-height:1.45;font-style:italic;margin:0;z-index:1}
+.quote-card p {
+    position: relative;
+    font-family: Arial, "Segoe UI", sans-serif !important;
+    font-size: clamp(18px, 2vw, 25px);
+    line-height: 1.45;
+    font-style: italic;
+    font-weight: 600;
+
+    letter-spacing: normal !important;
+    word-spacing: normal !important;
+
+    text-align: left !important;
+    white-space: normal;
+    word-break: normal;
+    overflow-wrap: break-word;
+
+    margin: 0;
+    z-index: 1;
+}
 .quote-card small{display:block;margin-top:18px;color:#c8e1ff;font-weight:800;letter-spacing:.12em;text-transform:uppercase;font-size:10px}
 .check-list{display:grid;gap:11px;margin-top:18px}
 .check-row{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border:1px solid #e1edfc;background:#f7faff;border-radius:14px}
